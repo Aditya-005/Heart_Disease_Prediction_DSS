@@ -1,0 +1,39 @@
+# Core dependencies for AI-Driven Predictive Healthcare System
+# Heart Disease Risk Assessment DSS
+
+# Data processing
+# Use NumPy/SciPy versions compatible with Python 3.12+
+numpy>=1.26.4
+pandas>=2.1.4
+
+# ECG signal processing
+wfdb==4.1.1
+scipy>=1.11.4
+
+# Machine learning
+scikit-learn==1.3.1
+joblib==1.3.2
+
+# Deep learning (optional, for hybrid CNN-ANN model)
+# Uncomment if using TensorFlow
+# tensorflow==2.13.0
+
+# Uncomment if using PyTorch
+# torch==2.0.1
+# torchvision==0.15.2
+
+# Visualization
+matplotlib>=3.8.0
+plotly>=5.17.0
+
+# Web UI
+streamlit==1.28.0
+
+# Jupyter for notebooks
+jupyter==1.0.0
+ipykernel==6.25.2
+notebook==7.0.6
+
+# Additional utilities
+tqdm==4.66.1
+
